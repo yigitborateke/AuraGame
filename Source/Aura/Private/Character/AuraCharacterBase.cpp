@@ -1,7 +1,11 @@
 // Copyright(c) 2024 Yiğit Bora Teke. All Rights Reserved.
 
-
 #include "Character/AuraCharacterBase.h"
+
+UAbilitySystemComponent* AAuraCharacterBase::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
 
 AAuraCharacterBase::AAuraCharacterBase()
 {
